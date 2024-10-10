@@ -1,0 +1,143 @@
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    background-color: #F7F1F8;
+    margin: 0%;
+    font-family: "Indie Flower", cursive ;
+}
+.container {
+    display: grid;
+}
+.top-left-design {
+    height: 300px;
+}
+.title-text {
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    color: #272665;
+    margin-top: 50px;
+}
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.h6 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.right-bot-design {
+    height: 400px;
+    margin-left: auto;
+    display: block;
+    margin-top: 150px;    
+}
+.mid-container {
+    display: grid;
+    text-align: center;
+}
+.profile-pic {
+    height: 300px;
+    margin-top: 150px;
+    justify-self: center;
+}
+.bio-text {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #272665;
+    margin: 100px
+}
+.bottom-container {
+    width: 70%;
+    display: grid;
+   justify-self: center;
+   margin-top: 200px;
+   margin-bottom: 300px;
+}
+.header {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #272665;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    column-gap: 20px;
+}
+.design {
+    background-color: #D3CDED;
+    padding: 15px;
+    border-radius: 20px;
+}
+.programming {
+    background-color: #272665;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.gaming {
+    background-color: #8D83B8;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.skill-header {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.skill-text {
+    font-size: 1rem;
+}
+.end-container {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+}
+.end-text {
+    background-color: #D3CDED;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+    column-gap: 100px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+a:link , a:visited , a:hover , a:active {
+    text-decoration: none;
+}
+.link1 {
+    background-color: #8D83B8;
+    color: white;
+    border-radius: 20px;
+}
+.link2 {
+    background-color: #272665;
+    color: white;
+    border-radius: 20px;
+}
+.link3 {
+    background-color: #D3CDED;
+    border-radius: 20px;
+}
+.circle {
+    justify-self: center;
+}
